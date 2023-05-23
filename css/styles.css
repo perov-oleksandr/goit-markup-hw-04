@@ -60,6 +60,18 @@
   max-width: 100%;
   height: auto
 }
+.project-item {
+  max-width: calc((100%-48px) / 3);
+}
+
+.project-link {
+  display: block;
+}
+
+.project-link:hover,
+.project-link:focus {
+  box-shadow: var(--project-shadow);
+}
 /*features */
 .features-item {
   width: calc((100%-72px) / 4);
