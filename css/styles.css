@@ -447,10 +447,7 @@ border-radius: 50%;
 background-color: var(--success-color);
 }
               
-        .social-icon-footer {
-          fill: currentColor;
-          object-fit: cover;
-        }
+
   .footer-section {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -514,7 +511,10 @@ height: 40px; }
     .social-link-footer:focus {
       background-color: var(--success-color);
     }
-  
+    .social-icon {
+      fill: currentColor;
+      object-fit: cover;
+    }
     .social-icon-footer {
       fill: currentColor;
       object-fit: cover;
