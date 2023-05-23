@@ -18,6 +18,18 @@
     --hero-button-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     --team-card-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+
+
+
+  --header-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    --filter-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+      0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    --project-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  
+    --bg-gradient: rgba(46, 47, 66, 0.7);
   }
   /* Styles reset */
     .link {
@@ -55,7 +67,9 @@
 .features-title {
   margin-bottom: 8px;
 }
-
+.hero section {
+  background-image: url(/images/hero/people-office\ 1.png);
+}
   /* block 1 
   .features {
     position: absolute;
@@ -164,6 +178,8 @@ top: 2280px;
   .link {
     text-decoration: none;
   }
+
+
   /* Titles */
     .features-hidden {
       position: absolute;
@@ -242,6 +258,10 @@ top: 2280px;
     display: flex;
     align-items: center;
   }
+    .page-header {
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
   .logo {
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -283,7 +303,18 @@ top: 2280px;
   }
   /* Hero */
   .hero {
-    background-color: var(--secondary-color);
+      background-color: var(--secondary-color);
+      
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient(var(--bg-gradient), var(--bg-gradient)),
+            url('../images/hero/people-office\ 1.png');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
   }
   .hero-title {
     text-align: center;
@@ -338,6 +369,45 @@ top: 2280px;
     background-color: var(--third-color);
   }
   /* Footer */
+        .social-text-footer {
+          margin-bottom: 16px;
+    
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 1.5;
+          letter-spacing: 0.02em;
+    
+          color: var(--third-color);
+        }
+    
+        .social-list-footer {
+          display: flex;
+          gap: 16px;
+        }
+    
+       
+    
+        .social-link-footer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+    
+          height: 100%;
+          width: 100%;
+          background-color: var(--primary-brand-color);
+          color: var(--light-color);
+          border-radius: 50%;
+        }
+    
+        .social-link-footer:hover,
+        .social-link-footer:focus {
+          background-color: var(--success-color);
+        }
+    
+        .social-icon-footer {
+          fill: currentColor;
+          object-fit: cover;
+        }
   .footer-section {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -355,7 +425,55 @@ top: 2280px;
   .footer-text {
     max-width: 264px;
   }
+    .footer-thumb-position {
+      margin-right: 120px;
+    }
+    .footer-position {
+      display: flex;
+      align-items: baseline;
+    }
+    .social-text-footer {
+      margin-bottom: 16px;
   
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+  
+      color: var(--third-color);
+    }
+  
+    .social-list-footer {
+      display: flex;
+      gap: 16px;
+    }
+  
+    .social-link-footer {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .social-link-footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      height: 100%;
+      width: 100%;
+      background-color: var(--primary-brand-color);
+      color: var(--light-color);
+      border-radius: 50%;
+    }
+  
+    .social-link-footer:hover,
+    .social-link-footer:focus {
+      background-color: var(--success-color);
+    }
+  
+    .social-icon-footer {
+      fill: currentColor;
+      object-fit: cover;
+    }
   /* Portfolio */
 
   .projects.section {
