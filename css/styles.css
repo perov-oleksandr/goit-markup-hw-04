@@ -126,6 +126,7 @@ top: 1548px;
 }
 .work-list-item {
   width: calc((100%-48px) / 3);
+  border: 1px solid var(--accent-color);
 }
 
 /* Team */
