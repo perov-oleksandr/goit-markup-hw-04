@@ -232,6 +232,7 @@ top: 2280px;
     color: var(--secondary-color);
   }
   .section-title {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -267,12 +268,6 @@ top: 2280px;
 display: flex;
 gap: 40px; }
   
-.work-list-img,
-.team-img,
-.project-foto {
-display: block;
-max-width: 100%;
-height: auto;}
 .section {
 padding-top: 120px;
  padding-bottom: 120px;
