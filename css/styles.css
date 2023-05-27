@@ -7,6 +7,7 @@
     --secondary-color: #2e2f42;
     --third-color: #ffffff;
     --success-color: #31d0aa;
+    --subtitle-color: #8e8f99;
   
     --primary-text: #434455;
     --accent-color: #e7e9fc;
@@ -33,7 +34,13 @@
     }
   h1,h2,h3,h4,h5,h6,p {
     margin: 0;
-  }
+    padding: 0;
+    }
+    
+    .list {
+      list-style: none;
+    }
+    
 
   .project-container {
     padding: 32px 16px;
@@ -596,7 +603,7 @@ height: 40px; }
 /* Customers */
 
 .customers-title {
-  line-height: 1.1;
+  line-height: 1.11;
 }
 
 .customers-item {
